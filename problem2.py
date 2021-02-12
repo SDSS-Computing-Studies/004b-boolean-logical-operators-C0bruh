@@ -32,6 +32,6 @@ b = int(b)
 if a%b ==0:
     print(str(a) + " " + "is a factor of" + " " + str(b))
 elif b%a ==0:
-    print(str(a) + " " + "is a factor of" + " " + str(b))
+    print(str(b) + " " + "is a factor of" + " " + str(a))
 else:
     print(str(a) + " " + "is not a factor of" + " " + str(b))
