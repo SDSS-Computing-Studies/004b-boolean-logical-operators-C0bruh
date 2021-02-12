@@ -30,7 +30,7 @@ a = int(a)
 b = int(b)
 
 if a%b ==0:
-    print(str(a) + " " + "is a factor of" + " " + str(b))
+    print(str(b) + " " + "is a factor of" + " " + str(a))
 elif b%a ==0:
     print(str(b) + " " + "is a factor of" + " " + str(a))
 elif a%b !=0:
