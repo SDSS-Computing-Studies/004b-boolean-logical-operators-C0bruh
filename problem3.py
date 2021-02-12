@@ -26,3 +26,23 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+a = input("please enter value a: ")
+b = input("please enter value b: ")
+c = input("please enter value c:")
+
+a = int(a)
+b = int(b)
+c = int(c)
+
+side1 = a**2
+side2 = b**2
+side3 = c**2
+
+if side1+side2==side3:
+    print(str(a)+ ',' + str(b) + ',' + str(c) +' form a pythaorean triple')
+elif side1+side3==side2:
+    print(str(a)+ ',' + str(b) + ',' + str(c) +' form a Pythaorean triple')
+elif side2+side3==side1:
+    print(str(a)+ ',' + str(b) + ',' + str(c) +' form a Pythaorean triple')
+else:
+    print(str(a)+ ',' + str(b) + ',' + str(c) +' do not form a Pythaorean triple')

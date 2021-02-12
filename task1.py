@@ -1,5 +1,5 @@
-
 #! python3
+
 """
 The Earth maintains an orbit where it's closest distance to  
 the sun is 0.9759 AU and it's furthest distance to the sun is 
@@ -15,3 +15,13 @@ Outputs:
 That is within normal Earth orbit.
 That is not within normal Earth orbit.
 """
+x = input("please enter a number: ")
+
+x = float(x)
+a = 0.9759
+b = 1.016
+
+if x > a and x < b:
+    print("That is within normal Earth orbit.")
+else:
+    print("That is not within normal Earth orbit.")

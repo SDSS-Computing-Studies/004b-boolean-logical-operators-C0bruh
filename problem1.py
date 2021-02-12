@@ -1,3 +1,4 @@
+#! python3
 """
 Problem 1
 Ask the user to enter a number.
@@ -18,4 +19,13 @@ Enter a number: 48
 48 is not frue
 """
 
-#! python3
+x = input("Please enter a number: ")
+
+x = int(x)
+a = 6
+b = 8
+
+if x%6 == 0 and x%8 !=0:
+    print(str(x) + " " + "is frue")
+else:
+    print(str(x) + " " + "is not frue")

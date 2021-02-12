@@ -23,3 +23,13 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+a = input("please enter your first number: ")
+b = input("please enter your second number: ")
+
+a = int(a)
+b = int(b)
+
+if a%b ==0:
+    print(str(a) + " " + "is a factor of" + " " + str(b))
+else:
+    print(str(a) + " " + "is not a factor of" + " " + str(b))

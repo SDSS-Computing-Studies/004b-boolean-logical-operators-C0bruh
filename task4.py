@@ -18,5 +18,10 @@ Hi Gertrude! You are a VIP!
 Enter your name=>Gordon
 You are not a VIP.
 """
-
+x = input("please enter a name: ")
 VIPNames = ("Guile","Blanka","Christine","Carol","Richard","Daniel","Chun-Li")
+
+if 'Guile'in x or 'Blanka' in x or 'Christine' in x or 'Carol' in x or 'Richard' in x or 'Daniel' in x or 'Chun-Li' in x:
+    print("Hi" + " " + (x) + "!" + " " + "You are a VIP!")
+else:
+    print("You are not a VIP.")
