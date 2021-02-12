@@ -30,8 +30,10 @@ a = int(a)
 b = int(b)
 
 if a%b ==0:
-    print(str(b) + " " + "is a factor of" + " " + str(a))
+    print(str(a) + " " + "is a factor of" + " " + str(b))
 elif b%a ==0:
     print(str(b) + " " + "is a factor of" + " " + str(a))
-else:
+elif a%b !=0:
+    print(str(a) + " " + "is not a factor of" + " " + str(b))
+elif b%a !=0:
     print(str(b) + " " + "is not a factor of" + " " + str(a))
