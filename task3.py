@@ -17,7 +17,7 @@ Enter a number: -3
 """
 x = input("please enter a number: ")
 
-x = int(x)
+x = float(x)
 a = 0
 
 if x > a:
