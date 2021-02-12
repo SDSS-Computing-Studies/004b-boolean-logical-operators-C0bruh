@@ -39,10 +39,10 @@ side2 = b**2
 side3 = c**2
 
 if side1+side2==side3:
-    print(str(a)+ ',' + str(b) + ',' + str(c) +' form a pythaorean triple')
+    print(str(a)+ ',' + str(b) + ',' + str(c) +' form a Pythagorean triple')
 elif side1+side3==side2:
-    print(str(a)+ ',' + str(b) + ',' + str(c) +' form a Pythaorean triple')
+    print(str(a)+ ',' + str(b) + ',' + str(c) +' form a Pythagorean triple')
 elif side2+side3==side1:
-    print(str(a)+ ',' + str(b) + ',' + str(c) +' form a Pythaorean triple')
+    print(str(a)+ ',' + str(b) + ',' + str(c) +' form a Pythagorean triple')
 else:
-    print(str(a)+ ',' + str(b) + ',' + str(c) +' do not form a Pythaorean triple')
+    print(str(a)+ ',' + str(b) + ',' + str(c) +' do not form a Pythagorean triple')
